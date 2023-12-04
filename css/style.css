@@ -507,8 +507,20 @@ main {
   transition: all 0.3s linear;
 }
 
-.blog-card:hover {
+/* .blog-card:hover {
   transform: scale(1.1);
+} */
+
+.blog-img {
+  overflow: hidden;
+}
+
+.blog-img img {
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-img img:hover {
+  transform: scale(1.2);
 }
 
 .section-blog .grid {
